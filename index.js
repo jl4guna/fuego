@@ -3,7 +3,7 @@
 const Hapi = require('hapi');
 
 const server = Hapi.server({
-  port: 3000,
+  port: 3010,
   host: 'localhost'
 });
 
@@ -12,7 +12,7 @@ const init = async () => {
     method: 'GET',
     path: '/fuego',
     handler: request => {
-      return 'fuego';
+      return {fuego: Math.random() >= 0.5};
     }
   });
 
