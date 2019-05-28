@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/LagunaISW/fuego#readme",
   "dependencies": {
-    "hapi": "^17.5.3"
+    "hapi": "^18.1.0"
   }
 }
